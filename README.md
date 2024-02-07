@@ -21,15 +21,11 @@ Usage
 ```bash
 https://github.com/AndrewProsnev/scrapethissite.git
 ```
-2. Change into the cloned directory:
-```bash
-cd parser
-```
-3. Install dependencies:
+2. Install dependencies:
 ```bash
 pip install .
 ```
-4. Run the spiders:
+3. Run the spiders:
 ```bash
 scrapy crawl ex1 -o res1.json
 ```
